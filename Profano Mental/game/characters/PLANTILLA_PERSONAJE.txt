@@ -1,0 +1,61 @@
+PLANTILLA DE PERSONAJE
+=====================
+
+INFORMACIÓN BÁSICA
+------------------
+Nombre:
+Edad:
+Género:
+Ocupación:
+Rol en la historia:
+
+APARIENCIA FÍSICA
+-----------------
+Altura:
+Complexión:
+Color de cabello:
+Color de ojos:
+Rasgos distintivos:
+Estilo de vestimenta:
+
+PERSONALIDAD
+------------
+Rasgos principales:
+Fortalezas:
+Debilidades:
+Miedos:
+Deseos:
+Secretos:
+
+TRASFONDO
+---------
+Historia personal:
+Familia:
+Relaciones importantes:
+Eventos traumáticos:
+
+MECÁNICAS DE JUEGO
+------------------
+Stats iniciales:
+Habilidades especiales:
+Rutas románticas:
+Condiciones de desbloqueo:
+
+ARCO NARRATIVO
+--------------
+Inicio:
+Desarrollo:
+Clímax:
+Resolución:
+
+DIÁLOGOS CARACTERÍSTICOS
+------------------------
+Frases recurrentes:
+Tono de voz:
+Peculiaridades del habla:
+
+NOTAS DE DESARROLLO
+-------------------
+Inspiraciones:
+Referencias visuales:
+Temas asociados:

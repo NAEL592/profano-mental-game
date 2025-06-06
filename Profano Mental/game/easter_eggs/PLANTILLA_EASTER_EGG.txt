@@ -1,0 +1,51 @@
+PLANTILLA DE EASTER EGG
+=======================
+
+INFORMACIÓN GENERAL
+-------------------
+Nombre del Easter Egg:
+Tipo: [Visual/Audio/Mecánica/Narrativo]
+Dificultad de descubrimiento: [Fácil/Medio/Difícil/Muy Difícil]
+
+UBICACIÓN
+---------
+Capítulo/Escena:
+Archivo de implementación:
+Coordenadas/Trigger:
+
+CONDICIONES DE ACTIVACIÓN
+-------------------------
+Requisitos previos:
+Acciones necesarias:
+Items requeridos:
+Estadísticas mínimas:
+
+DESCRIPCIÓN
+-----------
+Qué sucede:
+Duración:
+Recompensas:
+
+REFERENCIAS
+-----------
+Referencias culturales:
+Conexiones con otros juegos:
+Significado oculto:
+
+IMPLEMENTACIÓN TÉCNICA
+----------------------
+Código Ren'Py:
+Assets necesarios:
+Variables afectadas:
+
+PISTAS
+------
+Pista 1:
+Pista 2:
+Pista 3:
+
+NOTAS
+-----
+Fecha de implementación:
+Versión del juego:
+Comentarios adicionales:
