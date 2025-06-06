@@ -255,6 +255,7 @@ screen quick_menu():
             textbutton _("Guardar") action ShowMenu('save')
             textbutton _("Guardar R.") action QuickSave()
             textbutton _("Cargar R.") action QuickLoad()
+            textbutton _("Inventario") action ShowMenu('inventory')
             textbutton _("Prefs.") action ShowMenu('preferences')
 
 
@@ -303,6 +304,8 @@ screen navigation():
             textbutton _("Historial") action ShowMenu("history")
 
             textbutton _("Guardar") action ShowMenu("save")
+            
+            textbutton _("Inventario") action ShowMenu("inventory")
 
         textbutton _("Cargar") action ShowMenu("load")
 

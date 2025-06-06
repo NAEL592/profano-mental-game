@@ -1,32 +1,62 @@
-﻿# Coloca el código de tu juego en este archivo.
+﻿# Profano Mental - Main Script
 
-# Declara los personajes usados en el juego como en el ejemplo:
+# Declara los personajes
+define narrator = Character(None, kind=nvl)
+define unknown = Character("???", color="#ff0000")
 
-define e = Character("Eileen")
-
-
-# El juego comienza aquí.
-
+# El juego comienza aquí
 label start:
-
-    # Muestra una imagen de fondo: Aquí se usa un marcador de posición por
-    # defecto. Es posible añadir un archivo en el directorio 'images' con el
-    # nombre "bg room.png" or "bg room.jpg" para que se muestre aquí.
-
-    scene bg room
-
-    # Muestra un personaje: Se usa un marcador de posición. Es posible
-    # reemplazarlo añadiendo un archivo llamado "eileen happy.png" al directorio
-    # 'images'.
-
-    show eileen happy
-
-    # Presenta las líneas del diálogo.
-
-    e "Has creado un nuevo juego Ren'Py."
-
-    e "Añade una historia, imágenes y música, ¡y puedes presentarlo al mundo!"
-
-    # Finaliza el juego:
-
+    
+    scene black
+    with fade
+    
+    narrator "La oscuridad te envuelve..."
+    narrator "No recuerdas cómo llegaste aquí."
+    narrator "Solo sabes que algo no está bien."
+    
+    nvl clear
+    
+    unknown "Bienvenido al experimento."
+    
+    menu:
+        "¿Qué está pasando?":
+            unknown "Pronto lo descubrirás... si sobrevives."
+            
+        "¿Quién eres?":
+            unknown "Eso no importa ahora. Lo que importa es lo que encontrarás."
+    
+    "De repente, sientes algo en tu bolsillo..."
+    
+    # Añadir algunos items iniciales
+    $ inventory.add_item(test_document1)
+    $ inventory.add_item(test_usable1)
+    
+    "Has encontrado un {b}Diario Antiguo{/b} y una {b}Jeringa Misteriosa{/b}."
+    
+    menu:
+        "Revisar inventario":
+            call show_inventory
+            
+        "Continuar explorando":
+            pass
+    
+    "El juego continúa..."
+    
+    # Menu de prueba para el inventario
+    menu test_menu:
+        "Opciones de prueba:"
+        
+        "Abrir inventario":
+            call show_inventory
+            jump test_menu
+            
+        "Añadir más items":
+            call test_inventory
+            jump test_menu
+            
+        "Continuar":
+            pass
+    
+    "Fin de la demo."
+    
     return
