@@ -1,0 +1,31 @@
+# Ren'Py
+*.rpyc
+*.rpyb
+*.rpymc
+
+# Ren'Py saves and cache
+game/saves/
+game/cache/
+log.txt
+errors.txt
+traceback.txt
+
+# System files
+.DS_Store
+Thumbs.db
+*.bak
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# GitHub credentials file
+Github datos.txt
